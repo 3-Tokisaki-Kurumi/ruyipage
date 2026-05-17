@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Static Firefox runtime manifest for ruyiPage 1.2.17."""
+"""Static Firefox runtime manifest for ruyiPage managed Firefox."""
 
-RELEASE_TAG = "v1.2.17"
+RELEASE_TAG = "151-ruyi"
 FIREFOX_VERSION = "151.0a1"
-RELEASE_BASE_URL = "https://github.com/LoseNine/ruyipage/releases/download/{}".format(
-    RELEASE_TAG
-)
+RELEASE_BASE_URL = "https://github.com/LoseNine/ruyipage/releases/download/{}".format(RELEASE_TAG)
 
 RUNTIME_NAME = "firefox"
 
@@ -18,7 +16,7 @@ RUNTIMES = {
         "archive_type": "zip",
         "sha256": "9af674631229d4c023c435c4dae49e290dfc4a2254e230d0dd00971c69833ff4",
         "executable": "firefox/firefox.exe",
-        "install_subdir": "firefox-151.0a1-v1.2.17-win64",
+        "install_subdir": "firefox-151.0a1-151-ruyi-win64",
         "max_files": 20000,
         "max_total_size": 900 * 1024 * 1024,
     },
@@ -30,7 +28,7 @@ RUNTIMES = {
         "archive_type": "tar.xz",
         "sha256": "08bbf34a3e994e1c090797cd2e4281fae170ec231ad45651a98786ef2c69d225",
         "executable": "firefox/firefox",
-        "install_subdir": "firefox-151.0a1-v1.2.17-linux-x86_64",
+        "install_subdir": "firefox-151.0a1-151-ruyi-linux-x86_64",
         "max_files": 20000,
         "max_total_size": 900 * 1024 * 1024,
     },
